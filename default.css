@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+
+:root {
+    --back-color: #050a14;
+    --primary-color: #00e5ff;
+    --header-back: #0a1128;
+    --header-text: #00e5ff;
+    --glow: 0 0 5px rgba(0, 229, 255, 0.4);
+}
+
+* {
+    font-family: 'Fira Code', monospace;
+}
+
+body {
+    background-color: var(--back-color);
+    color: var(--primary-color);
+}
+
+header {
+    background-color: var(--header-back);
+    color: var(--header-text);
+}
+
+.container {
+    border: 1px solid #005580;
+    box-shadow: 0 0 15px rgba(0, 170, 255, 0.15);
+}
+
+.menu {
+    background-color: var(--header-back);
+    border-bottom: 1px solid #005580;
+}
+
+.menu h1 {
+    color: var(--header-text);
+    text-shadow: var(--glow);
+}
+
+#app {
+    background-color: var(--back-color);
+}
+
+p {
+    color: #b3e5fc;
+}
+
+.bottom-bar {
+    background-color: var(--header-back);
+    border-top: 1px solid #005580;
+}
+
+.bottom-name {
+    color: var(--primary-color);
+}
+
+h2 {
+    color: #00bfff;
+    text-shadow: var(--glow);
+}
+
+p.code {
+    color: #80d8ff;
+}
+
+span.text {
+    color: #00e5ff;
+}
+
+p.path {
+    color: #4fc3f7 !important;
+}
+
+p.path span {
+    color: #00bfff;
+}
+
+p.path span+span {
+    color: #00e5ff;
+}
+
+.success {
+    color: #00e5ff;
+}
+
+.error {
+    color: #ff0055; /* Neon pink/red for clear error visibility */
+    text-shadow: 0 0 5px rgba(255, 0, 85, 0.5);
+}
+
+p.response {
+    color: #80d8ff;
+}
+
+input {
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-shadow: var(--glow);
+}
+
+.icone {
+    color: #00bfff;
+}
+
+.icone.error {
+    color: #ff0055;
+}
+
+.theme-switches {
+    background-color: var(--header-back);
+    border: 1px solid #005580;
+}
+
+#switch8 {
+    background-color: #A080FF;
+}
+
+#switch7 {
+    background-color: #FF6600;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--back-color);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #005580;
+}
